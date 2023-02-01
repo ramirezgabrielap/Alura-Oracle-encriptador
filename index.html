@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">   
+        <script type="text/javascript" src="script.js"></script>
+        <title>Encriptador</title>  
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="imagenes/Logo.png" alt="Logo Alura">
+        </header>
+        <main>
+            <section>
+                <textarea class="text-area" id="texto" name="texto" maxlength="1500" cols="30" rows="10" placeholder="Ingrese el texto AQUI" required></textarea>
+                <div>
+                    <img class="vector" src="imagenes/Vector.png" alt="Signo de Exclamación">
+                    <p class="information">Ingrese sólo letras minúsculas y sin tildes</p>
+                </div>
+                <div class="botones" id="botones">
+                    <button class="boton-encript" id="btn-encript" onclick="encriptar()">Encriptar</button>
+                    <button class="boton-desencript" id="btn-desencript" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </section>
+  
+            <section class="resultado" id="entrada">
+                <img class="muneco" id="muneco" src="imagenes/Muñeco.png" alt="Muñeco">
+                <h6 id="pie">Ingresa el texto que deseas encriptar o desencriptar</h6>
+                <div class="d-none" id="error">
+                    <h3>Ningún mensaje ha sido encontrado</h3>
+                </div>
+            </section>
+            <section class="d-none" id="exito">
+                <textarea class="texto2" id="texto2" cols="18" rows="6"></textarea>
+                <button class="copiar" id="btn-copiar" onclick="copiar()">Copiar</button>
+            </section>
+        </main>
+        <footer>
+            <p class="copyright">&copy Copyright Realizado por Gabriela Ramírez - Challenge: Encriptador - Programa Oracle, One Next Education</p>
+        </footer>
+    </body>
+</html>
