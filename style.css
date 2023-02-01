@@ -9,7 +9,7 @@
 
 .logo{
     margin-left: 15px;
-    padding-top: 20px;
+    padding-top: 10px;
     width: 8%;
 }
 
@@ -46,7 +46,6 @@ main{
 
 .botones{
     display: flex;
-    margin-top: 18px;
     margin-left: 240px;
 }
 
@@ -85,7 +84,7 @@ main{
     border: none;
     border-radius: 24px;
     color: #0A3871;
-    margin-top: 190px;
+    margin-top: 180px;
     padding-left: 20px; 
 }
 
@@ -134,14 +133,13 @@ h6{
 
 footer{
     text-align: center;
-    padding: 40px;
 }
 
 .copyright{
     background: #F3F5FC;
     color: #0A3871;
     font-size: 13px;
-    margin: 20px;
+    margin: 5px;
 }
 
 .d-none {
