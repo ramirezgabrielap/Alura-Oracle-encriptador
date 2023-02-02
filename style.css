@@ -1,147 +1,140 @@
 *{
-    background: #F3F5FC;
-    font-family: 'Inter';
+    font-family: 'Inter', serif;
     font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    color: #0A3871;
 }
 
-.logo{
-    margin-left: 15px;
-    padding-top: 10px;
-    width: 8%;
-}
-
-main{
-    display: flex;
-    margin-bottom: 50px;
+body {
+    background: #F3F5FC;
     margin-left: 80px;
+    margin-right: 80px;
 }
 
-.text-area{
-    border: none;
-    color: #0A3871;
-    margin-top: 90px;
-    margin-left: 240px;
-    text-transform: lowercase;
+header {
+    margin: 20px 0;
 }
 
-::placeholder { color: #0A3871; }
-    .text-area:focus {
-        outline: none;
-    }
-
-.vector{
-    display: inline;
-    margin-left: 240px;
-    margin-left: 240px;
-}
-
-.information{
-    display: inline;
-    color: #495057;
-    font-size: 18px;
-}
-
-.botones{
+main {
     display: flex;
-    margin-left: 240px;
 }
 
-.boton-encript{
-    background: #0A3871;
-    border: 1px solid #0A3871;
-    color: #FFFFFF;
-    border-radius: 24px;
-    width: 328px;
-    height: 67px;
-    cursor: pointer;
+section {
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
 }
 
-.boton-desencript{
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
-    color: #0A3871;
-    border-radius: 24px;
-    width: 328px;
-    height: 67px;
-    cursor: pointer;
-    margin-left: 30px;
-}
-
-.resultado{
-    background: #FFFFFF;
-    color: #0A3871;
-    text-align: center;
-    border-radius: 32px;
-    margin-left: 10%;
-}
-
-.muneco{
-    background: #FFFFFF;
-    background-repeat: no-repeat;
+textarea {
     border: none;
-    border-radius: 24px;
+    background: #F3F5FC;
+    text-transform: lowercase;
+    margin: auto;
+}
+
+::placeholder {
     color: #0A3871;
-    margin-top: 180px;
-    padding-left: 20px; 
 }
 
-h3{
-    background: #FFFFFF;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 0%;
-    margin-top: 20%;
-}
-
-h6{
-    background: #FFFFFF;
-    font-size: 16px;
-    margin-top: 30%;
-    margin-left: 10%;
-    margin-right: 10%;
-    
-}
-
-.texto2{
-    background: #FFFFFF;
-    color: #0A3871;
-    padding: 5%;
-    border: none;
-    border-radius: 32px;
-    margin-left: 25%;
-}
-
-.texto2:focus {
+textarea:focus {
     outline: none;
 }
 
-.copiar{
-    border: 1px solid #0A3871;
-    color: #0A3871;
-    border-radius: 24px;
-    width: 336px;
-    height: 67px;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-left: 27%;
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 16px;
 }
 
 footer{
     text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+/** botones **/
+
+.btn {
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+    height: 68px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    max-width: 320px;
+    min-width: 140px;
+    width: 100%;
+}
+
+.boton-encript{
+    background: #0A3871;
+    color: #FFFFFF;
+}
+
+.boton-desencript{
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+.boton-copiar{
+    background: #FFFFFF;
+    color: #0A3871;
+}
+
+/** clases **/
+
+.info{
+    display: inline;
+    /*color: #0A3871;*/
+    font-size: 18px;
+}
+
+.resultado{
+    background: #FFFFFF;
+    /*color: #0A3871;*/
+    text-align: center;
+    border-radius: 32px;
+}
+
+.muneco{
+    background-repeat: no-repeat;
+    border: none;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.texto2{
+    background: #FFFFFF;
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 .copyright{
-    background: #F3F5FC;
-    color: #0A3871;
     font-size: 13px;
-    margin: 5px;
+}
+
+/** herramientas **/
+
+.botones{
+    display: flex;
 }
 
 .d-none {
     display: none!important;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    .botones {
+        display: block;
+        text-align: center;
+    }
+    body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

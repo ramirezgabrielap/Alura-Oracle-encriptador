@@ -12,39 +12,42 @@
     </head>
     <body>
         <header>
-            <img class="logo" src="imagenes/Logo.png" alt="Logo Alura">
+            <img class="" src="imagenes/Logo.png" alt="Logo Alura">
         </header>
+
         <main>
             <section>
-                <textarea class="text-area" id="texto" name="texto" maxlength="1500" cols="30" rows="10" placeholder="Ingrese el texto AQUI" required></textarea>
+                <textarea class="text-area" id="texto" name="texto" maxlength="1500" cols="30" rows="10"
+                          placeholder="Ingrese el texto AQUI" required autofocus></textarea>
                 <div>
-                    <img class="vector" src="imagenes/Vector.png" alt="Signo de Exclamación">
-                    <p class="information">Ingrese sólo letras minúsculas y sin tildes</p>
+                    <img class="" src="imagenes/vector.png" alt="Signo de Exclamación">
+                    <p class="info">Ingrese sólo letras minúsculas y sin tildes</p>
                 </div>
-                <div class="botones" id="botones">
-                    <button class="boton-encript" id="btn-encript" onclick="encriptar()">Encriptar</button>
-                    <button class="boton-desencript" id="btn-desencript" onclick="desencriptar()">Desencriptar</button>
+                <div class="botones">
+                    <button class="btn boton-encript" id="btn-encript" onclick="encriptar()">Encriptar</button>
+                    <button class="btn boton-desencript" id="btn-desencript" onclick="desencriptar()">Desencriptar</button>
                 </div>
             </section>
   
-            <section class="resultado" id="entrada">
+            <section id="entrada" class="resultado">
                 <img class="muneco" id="muneco" src="imagenes/Muñeco.png" alt="Muñeco">
-                <h6 id="pie">Ingresa el texto que deseas encriptar o desencriptar</h6>
-                <div class="d-none" id="error">
-                    <h3>Ningún mensaje ha sido encontrado</h3>
-                </div>
+                <h4 id="pie">Ingresa el texto que deseas encriptar o desencriptar</h4>
+                <h3 id="error" class="d-none" >Ningún mensaje ha sido encontrado</h3>
             </section>
-            <section class="d-none" id="exito">
-                <textarea class="texto2" id="texto2" cols="18" rows="6"></textarea>
-                <button class="copiar" id="btn-copiar" onclick="copiar()">Copiar</button>
+
+            <section  id="exito" class="resultado d-none">
+                <textarea class="texto2" id="texto2" rows="10"></textarea>
+                <button class="btn boton-copiar" id="btn-copiar" onclick="copiar()">Copiar</button>
             </section>
+
         </main>
+
         <footer>
             <p class="copyright">&copy Copyright Realizado por Gabriela Ramírez - Challenge: Encriptador - Programa Oracle, One Next Education</p>
-            <img height="23" src="imagenes/GitHub-Mark.png" alt="GitHub">
-            <img height="20" src="https://www.aluracursos.com/assets/img/challenges/oracle-one/logo-linkedin.1657102612.svg" alt="LinkedIn">
-            <img height="24" src="https://w7.pngwing.com/pngs/895/882/png-transparent-computer-icons-logo-facebook-facebook-blue-logo-electric-blue.png" alt="GitHub">
-            
+            <img height="24" src="imagenes/GitHub-Mark.png" alt="GitHub">
+            <img height="22" src="https://www.aluracursos.com/assets/img/challenges/oracle-one/logo-linkedin.1657102612.svg" alt="LinkedIn">
+            <img height="23" src="https://w7.pngwing.com/pngs/895/882/png-transparent-computer-icons-logo-facebook-facebook-blue-logo-electric-blue.png" alt="GitHub">
         </footer>
+
     </body>
 </html>
