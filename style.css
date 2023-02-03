@@ -87,13 +87,11 @@ footer{
 
 .info{
     display: inline;
-    /*color: #0A3871;*/
     font-size: 18px;
 }
 
 .resultado{
     background: #FFFFFF;
-    /*color: #0A3871;*/
     text-align: center;
     border-radius: 32px;
 }
