@@ -14,6 +14,7 @@ Quien cuenta con este encriptador, puede encriptar y desencriptar los mensajes c
 
 * **HTML5** 
 * **CSS3** 
+* **JavaScript**
 
 ## ✒️ Autor
 Gabriela Ramírez
