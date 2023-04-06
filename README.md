@@ -3,7 +3,8 @@
 
 Proyecto realizado en Programa ONE (Oracle Next Education) sobre HTML5 y CSS.
 Encripta las palabras-frases ingresadas, para que quien no cuenta con acceso a este, no logre comprender el mensaje. 
-Quien cuenta con este encriptador, puede encriptar y desencriptar los mensajes con solo un click.
+Quien cuenta con este encriptador, puede encriptar y desencriptar texto con solo un click.
+GitHub Page: https://ramirezgabrielap.github.io/Alura-Oracle-encriptador/
 
 ## :hammer: Funcionalidades del proyecto
 
